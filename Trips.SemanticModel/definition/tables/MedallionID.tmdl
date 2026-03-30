@@ -1,0 +1,47 @@
+table MedallionID
+	lineageTag: e31926bf-c06a-4320-b44f-35dd671fdf55
+
+	column MedallionID
+		lineageTag: 06f3f7ce-2eaf-48e2-941e-8a5942efd3a0
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'MedallionID Order'
+
+		relatedColumnDetails
+			groupByColumn: 'MedallionID Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MedallionID Fields'
+		isHidden
+		lineageTag: 382f30ea-84ec-4b1e-914f-454d2b94d799
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'MedallionID Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'MedallionID Order'
+		isHidden
+		formatString: 0
+		lineageTag: db6b6f2b-e8c4-4c8b-80b4-31fd2dddaffb
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MedallionID = calculated
+		mode: import
+		source =
+				{
+				    ("MedallionID", NAMEOF('Medallion'[MedallionID]), 0)
+				}
+
+	annotation PBI_Id = 57a741c3a5844391900bf1f1da2ce238
+
