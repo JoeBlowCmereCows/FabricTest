@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "allowImportingTsExtensions": true,
+        "allowSyntheticDefaultImports": true,
+        "jsx": "react",
+        "strictNullChecks": false,
+        "target": "es2017",
+        "moduleResolution": "bundler",
+        "lib": [
+            "ES2017",
+            "DOM"
+        ]
+    }
+}

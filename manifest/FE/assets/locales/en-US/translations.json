@@ -1,0 +1,18 @@
+{
+    "Workload_Display_Name": "Chartnado",
+    "Workload_Full_Display_Name": "Chartnado Reports, Forms and Integrations",
+    "Workload_Description": "Reports, Forms and Integrations",
+    "Workload_Hub_Slogan": "A complete SQL Solution for Fabric",
+    "Workload_Hub_GetingStarted_Title": "Getting Started with Chartnado",    
+    "Workload_Hub_GetingStarted_SubTitle": "Build reports, forms and integrations",
+    "Workload_Hub_GettingStarted_Description": "Create reports, forms and graphical integrations directly within Fabric",
+    "Report_DisplayName": "Chartnado Report",
+    "Report_DisplayName_Plural": "Chartnado Reports",
+    "Report_Description": "Chartnado Report Description",
+    "Integration_DisplayName": "Chartnado Integration",
+    "Integration_DisplayName_Plural": "Chartnado Integrations",
+    "Integration_Description": "Chartnado Integration Description",
+    "Workspace_DisplayName": "Chartnado Workspace",
+    "Workspace_DisplayName_Plural": "Chartnado Workspaces",
+    "Workspace_Description": "Chartnado Workspace Description"
+}

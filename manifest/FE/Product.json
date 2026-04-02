@@ -1,0 +1,128 @@
+{
+    "name": "Chartnado",
+    "version": "1.100",
+    "displayName": "Workload_Display_Name",
+    "fullDisplayName": "Workload_Full_Display_Name",
+    "description": "Workload_Description",
+    "favicon": "assets/images/WorkloadIcon.png",
+    "icon": {
+      "name": "assets/images/WorkloadIcon.png"
+    },
+    "homePage": {
+      "learningMaterials": [
+        {
+          "title": "Workload_Hub_GetingStarted_Title",
+          "introduction": "Workload_Hub_GetingStarted_SubTitle",
+          "description": "Workload_Hub_GettingStarted_Description",
+          "image": "assets/images/WorkloadGettingStarted.png",
+          "link": "https://aka.ms/get-started-learning-docs"
+        }
+      ],
+      "newSection": {
+        "customActions": [
+        ]},
+        "recommendedItemTypes": [
+          "Org.MyWorkload.Report",
+          "Org.MyWorkload.Integration",
+          "Org.MyWorkload.Workspace"
+        ]
+    },
+    "createExperience": {
+      "description": "Workload_Description",
+      "cards": [
+        {
+          "title": "Report_DisplayName",
+          "description": "Report_Description",
+          "icon": {
+            "name": "assets/images/ReportIcon.png"
+          },
+          "icon_small": {
+            "name": "assets/images/ReportIcon.png"
+          },
+          "availableIn": [
+            "home",
+            "create-hub",
+            "workspace-plus-new",
+            "workspace-plus-new-teams"
+          ],
+          "itemType": "Report",
+          "createItemDialogConfig": {
+            "onCreationFailure": { "action": "item.onCreationFailure" },
+            "onCreationSuccess": { "action": "item.onCreationSuccess" }
+          }
+        },
+        {
+          "title": "Integration_DisplayName",
+          "description": "Integration_Description",
+          "icon": {
+            "name": "assets/images/ReportIcon.png"
+          },
+          "icon_small": {
+            "name": "assets/images/ReportIcon.png"
+          },
+          "availableIn": [
+            "home",
+            "create-hub",
+            "workspace-plus-new",
+            "workspace-plus-new-teams"
+          ],
+          "itemType": "Integration",
+          "createItemDialogConfig": {
+            "onCreationFailure": { "action": "item.onCreationFailure" },
+            "onCreationSuccess": { "action": "item.onCreationSuccess" }
+          }
+        },
+        {
+          "title": "Workspace_DisplayName",
+          "description": "Workspace_Description",
+          "icon": {
+            "name": "assets/images/ReportIcon.png"
+          },
+          "icon_small": {
+            "name": "assets/images/ReportIcon.png"
+          },
+          "availableIn": [
+            "home",
+            "create-hub",
+            "workspace-plus-new",
+            "workspace-plus-new-teams"
+          ],
+          "itemType": "Workspace",
+          "createItemDialogConfig": {
+            "onCreationFailure": { "action": "item.onCreationFailure" },
+            "onCreationSuccess": { "action": "item.onCreationSuccess" }
+          }
+        }
+
+      ]
+    },
+    "productDetail": {
+      "publisher": "Powder Software, Inc.",
+      "slogan": "Workload_Hub_Slogan",
+      "description": "Workload_Hub_GettingStarted_Description",
+      "image": {
+        "mediaType": 0,
+        "source": "assets/images/WorkloadBanner.png"
+      },
+      "slideMedia": [
+        {
+          "mediaType": 1,
+          "source": "https://youtube.com/embed/UNgpBOCvwa8?si=KwsR879MaVZd5CJi"
+        },
+        {
+          "mediaType": 0,
+          "source": "assets/images/WorkloadSlideMedia.png"
+        }
+      ],
+        "supportLink": {
+          "documentation": {"url": "https://example.com/documentation"},
+          "certification": {"url": "https://example.com/certification"},
+          "help": {"url": "https://example.com/help"},
+          "privacy": {"url": "https://example.com/privacy"},
+          "terms": {"url": "https://example.com/terms"},
+          "license": {"url": "https://azuremarketplace.microsoft.com"} 
+      }
+    },
+    "itemJobTypes" :["storeData", "others"],
+    "compatibleItemTypes" : ["Lakehouse"]
+}

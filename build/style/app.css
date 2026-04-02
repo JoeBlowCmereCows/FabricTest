@@ -1,0 +1,15 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    margin-top: 24px;
+}
+
+#message {
+    color: green;
+}
+
+#error {
+    color: red;
+}
